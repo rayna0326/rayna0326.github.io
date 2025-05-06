@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RAYNA'S WEBSITE</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+
+  <style>
+    .zen-maru-gothic-caption {
+      font-family: "Zen Maru Gothic", serif;
+      font-style: normal;
+      color: #387953;
+    }
+  </style>
+
+</head>
+
+<body class="zen-maru-gothic-caption">
+
+  <h1 class="text-center">2025/05/06</h1>
+  <hr>
+  <h2 class="text-center">表單</h2>
+  <div class="container">
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <label for="inputPassword5" class="form-label">Password</label>
+    <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+    <div id="passwordHelpBlock" class="form-text">
+      Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special
+      characters, or emoji.
+    </div>
+    <input class="btn btn-primary" type="submit" value="Submit">
+  </div>
+
+  <hr>
+
+  <div class="container">
+    <div class="form-floating mb-3">
+      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+      <label for="floatingInput">Email address</label>
+    </div>
+    <div class="form-floating">
+      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+      <label for="floatingPassword">Password</label>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="container">
+    <div class="row g-3">
+      <div class="col">
+        <label for="floatingInput">姓</label>
+        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+      </div>
+      <div class="col">
+        <label for="floatingInput">名</label>
+        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  <div class="container">
+    <select class="form-select" aria-label="Default select example">
+      <option selected>Open this select menu</option>
+      <option value="1">One</option>
+      <option value="2">Two</option>
+      <option value="3">Three</option>
+    </select>
+  </div>
+  <hr>
+  <div class="container">
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+      <label class="form-check-label" for="radioDefault1">
+        Default radio
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
+      <label class="form-check-label" for="radioDefault2">
+        Default checked radio
+      </label>
+    </div>
+  </div>
+  <hr>
+  <div class="container">
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+    <label class="form-check-label" for="checkDefault">
+      Default checkbox
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="checkChecked" checked>
+    <label class="form-check-label" for="checkChecked">
+      Checked checkbox
+    </label>
+  </div>
+</div>
+<hr>
+<div class="container">
+<label for="exampleColorInput" class="form-label">Color picker</label>
+<input type="color" class="form-control form-control-color" id="exampleColorInput" value="#563d7c" title="Choose your color">
+</div>
+</body>
+
+</html>
